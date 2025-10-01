@@ -1,3 +1,10 @@
+"""
+Samuel Antón
+01/10/2025
+ASIXc1B
+MDS - TA02
+"""
+
 from datetime import datetime
 
 # Demanar edat
@@ -9,7 +16,7 @@ if edat >= 18:
 else:
     print("Ets menor d'edat")
 
-# Funcionalitat 1: Infant o Gran
+# Funcionalitat 1: Categoritzar edat
 if edat < 13:
     print("Ets un infant")
 elif edat < 18:
