@@ -9,11 +9,15 @@ if edat >= 18:
 else:
     print("Ets menor d'edat")
 
-# Funcionalitat 1: Classificació segons l'edat
+# Funcionalitat 1: Infant o Gran
 if edat < 13:
     print("Ets un infant")
-else:
+elif edat < 18:
+    print("Ets un adolescent")
+elif edat <60:
     print("Ets una persona gran")
+else:
+    print("Ets un ancià")
 
 # Funcionalitat 2: Calcular en quin any farà 100 anys
 any_actual = datetime.now().year
